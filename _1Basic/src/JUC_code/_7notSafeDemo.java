@@ -1,6 +1,4 @@
-package _1BasicDemo;
-
-import org.w3c.dom.ls.LSException;
+package JUC_code;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
@@ -11,7 +9,7 @@ import java.util.concurrent.CopyOnWriteArraySet;
  * Author:liang;
  * Date:2020/3/16;
  * Time:8:33;
- * Package Name:_1BasicDemo;
+ * Package Name:JUC_code;
  * 需求：举例说明集合类是不安全的
  *
  *

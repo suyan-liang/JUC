@@ -1,4 +1,4 @@
-package _1BasicDemo;
+package JUC_code;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * Author:liang;
  * Date:2020/3/15;
  * Time:14:14;
- * Package Name:_1BasicDemo;
+ * Package Name:JUC_code;
  * 需求：卖3000张票
  * 步骤：
  */

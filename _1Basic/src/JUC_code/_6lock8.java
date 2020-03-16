@@ -1,4 +1,4 @@
-package _1BasicDemo;
+package JUC_code;
 
 import java.util.concurrent.TimeUnit;
 
@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
  * Author:liang;
  * Date:2020/3/15;
  * Time:20:34;
- * Package Name:_1BasicDemo;
+ * Package Name:JUC_code;
  * 需求：测试线程八锁
  *
  *
