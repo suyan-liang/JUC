@@ -1,4 +1,4 @@
-package JUC_code;
+package JUC_basic_code;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
  * Author:liang;
  * Date:2020/3/16;
  * Time:10:53;
- * Package Name:JUC_code;
+ * Package Name:JUC_basic_code;
  * 需求：
  *
  *

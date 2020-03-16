@@ -1,4 +1,4 @@
-package JUC_code;
+package JUC_basic_code;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
@@ -9,7 +9,7 @@ import java.util.concurrent.CopyOnWriteArraySet;
  * Author:liang;
  * Date:2020/3/16;
  * Time:8:33;
- * Package Name:JUC_code;
+ * Package Name:JUC_basic_code;
  * 需求：举例说明集合类是不安全的
  *
  *

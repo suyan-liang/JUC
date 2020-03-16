@@ -1,4 +1,4 @@
-package JUC_code;
+package JUC_basic_code;
 
 import java.util.concurrent.CountDownLatch;
 
@@ -6,7 +6,7 @@ import java.util.concurrent.CountDownLatch;
  * Author:liang;
  * Date:2020/3/16;
  * Time:12:10;
- * Package Name:JUC_code;
+ * Package Name:JUC_basic_code;
  *
  * 需求：
  * 假设6个自定义线程，1个主线程。

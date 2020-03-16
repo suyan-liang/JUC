@@ -1,10 +1,10 @@
-package JUC_code;
+package JUC_basic_code;
 
 /**
  * Author:liang;
  * Date:2020/3/15;
  * Time:17:27;
- * Package Name:JUC_code;
+ * Package Name:JUC_basic_code;
  * 需求：使用lock锁的生产者消费者版本
  *
  *

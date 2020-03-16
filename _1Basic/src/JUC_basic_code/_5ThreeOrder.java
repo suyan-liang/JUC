@@ -1,4 +1,4 @@
-package JUC_code;
+package JUC_basic_code;
 
 import java.util.ArrayList;
 import java.util.concurrent.locks.Condition;
@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * Author:liang;
  * Date:2020/3/15;
  * Time:19:25;
- * Package Name:JUC_code;
+ * Package Name:JUC_basic_code;
  *
  * 步骤：
  *
