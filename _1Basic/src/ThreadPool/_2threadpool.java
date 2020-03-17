@@ -18,6 +18,8 @@ import static java.util.concurrent.ThreadPoolExecutor.*;
  * 1.   不用再new线程了，用时即取，减少了资源的消耗，优化了性能
  * 2.   特点 线程复用；控制最大并发数；管理线程
  *
+ * 就是给你提供一个可以方便操纵线程的场所，线程任务你自己定，放进execute函数，它有空了自动帮你执行
+ *
  *
  * 使用的时候是用的Executor的子接口ExecutorService
  * 利用Executors工具类创建线程池

@@ -35,10 +35,6 @@ class myCache
     public void put(String key,Object value)
     {
 
-
-
-
-
         readWriteLock.writeLock().lock();
         try{
             System.out.println(Thread.currentThread().getName()+"开始写入数据");

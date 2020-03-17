@@ -17,6 +17,8 @@ import java.util.concurrent.TimeUnit;
  * 1.   extends Thread
  * 2.   implements Runnable
  * 3.   implements Callable<T>
+ *
+ *     不如说是创建线程任务的第三种方法
  */
 
 
@@ -55,12 +57,9 @@ import java.util.concurrent.TimeUnit;
  */
 class myThread implements Callable<Integer>
 {
-
-
     @Override
     public Integer call() throws Exception {
-        try {
-            TimeUnit.SECONDS.sleep(4); } catch (InterruptedException e) { e.printStackTrace(); }
+        try { TimeUnit.SECONDS.sleep(4); } catch (InterruptedException e) { e.printStackTrace(); }
         System.out.println("this is callable");
         return 1024;
     }
@@ -71,7 +70,6 @@ public class _8Callable {
         new Thread(futureTask,"A").start();
         System.out.println("main计算完成");
         System.out.println("another线程计算完成"+futureTask.get());
-
         new Thread(futureTask,"B").start();
 
 

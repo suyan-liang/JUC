@@ -10,7 +10,11 @@ package JUC_basic_code;
  *
  *
  * 实现接口的高效形式
- * 1.   Lambda表达式,当接口中只有一个方法时简便的写法，因为就一个方法肯定不会实现错，必须是一个方法。解决了匿名内部类代码冗余的情况.函数式接口才能用lambda
+ * 当线程任务比较简单的时候可以直接使用lambda表达式，无需再定义类实现runnable接口
+ *
+ * 0.   函数的参数是接口或者new一个接口且接口只有一个方法时使用Lambda表达式
+ * 1.   Lambda表达式,因为接口就一个方法肯定不会实现错，必须是一个方法。
+ *      解决了匿名内部类代码冗余的情况.函数式接口才能用lambda
  * 2.   小括号，箭头，大括号实现
  * 3.   @FunctionalInterface显示声明函数式接口
  * 4.   default 在函数式接口中可以实现多个 default函数
@@ -22,12 +26,12 @@ package JUC_basic_code;
 //显示声明函数式接口
 @FunctionalInterface
 interface Foo{
-    public abstract int  add(int x,int y);
-    public default int mul(int x,int y)
+    int  add(int x,int y);
+    default int mul(int x,int y)
     {
         return x*y;
     }
-    public static int div(int x,int y)
+    static int div(int x,int y)
     {
         return x/y;
     }
@@ -35,7 +39,8 @@ interface Foo{
 }
 public class _2LambdaExpress {
     public static void main(String[] args) {
-        /*        Foo foo=new Foo() {
+        /*冗杂的匿名内部类写法
+        Foo foo=new Foo() {
             @Override
             public void sayhello() {
                 System.out.println("hello.....");
